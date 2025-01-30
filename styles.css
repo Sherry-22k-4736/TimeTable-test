@@ -1,0 +1,120 @@
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Last update section */
+#lastUpdate {
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+    color: #555;
+}
+
+/* Styling the rest of the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.day-section {
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff;
+    border-left: 5px solid #007bff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.day-section h3 {
+    background: #007bff;
+    color: white;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+.day-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.day-section li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+#downloadPdfBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+#downloadPdfBtn:hover {
+    background-color: #0056b3;
+}
+
+
