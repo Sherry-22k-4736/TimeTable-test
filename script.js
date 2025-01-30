@@ -8,7 +8,8 @@ async function fetchTimetableData() {
     try {
         // Fetch the .xlsx file directly from the server
         //const response = await fetch("https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/Sherry-22k-4736/Timetable/main/timetable.xlsx");
-        const response = await fetch("https://raw.githubusercontent.com/Sherry-22k-4736/Timetable/main/timetable.xlsx");
+        //const response = await fetch("https://raw.githubusercontent.com/Sherry-22k-4736/Timetable/main/timetable.xlsx");
+        const response = await fetch("./timetable.xlsx");
         if (!response.ok) {
             alert("Failed to load timetable data. Please mail k224736@nu.edu.pk ");
             return;
